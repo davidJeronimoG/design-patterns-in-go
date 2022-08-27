@@ -1,0 +1,22 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/dgarciajaram/go/src/github.com/davidJeronimoG/design-patterns-in-go'
+type "goimports" > /dev/null 2>&1 \
+		|| (echo 'goimports not found: to install it, run "go install golang.org/x/tools/cmd/goimports@latest"'; exit 1)
+type "staticcheck" > /dev/null 2>&1 \
+		|| (echo 'staticcheck not found: to install it, run "go install honnef.co/go/tools/cmd/staticcheck@latest"'; exit 1)
+echo "=> Executing go mod tidy"
+go mod tidy
+echo "=> Executing go fmt"
+go fmt ./...
+ 
+echo "=> Executing goimports"
+goimports -w /Users/dgarciajaram/go/src/github.com/davidJeronimoG/design-patterns-in-go /Users/dgarciajaram/go/src/github.com/davidJeronimoG/design-patterns-in-go/patrones/adapter /Users/dgarciajaram/go/src/github.com/davidJeronimoG/design-patterns-in-go/patrones/builder /Users/dgarciajaram/go/src/github.com/davidJeronimoG/design-patterns-in-go/patrones/factory /Users/dgarciajaram/go/src/github.com/davidJeronimoG/design-patterns-in-go/patrones/prototype /Users/dgarciajaram/go/src/github.com/davidJeronimoG/design-patterns-in-go/patrones/singleton /Users/dgarciajaram/go/src/github.com/davidJeronimoG/design-patterns-in-go/solid
+ 
+echo "=> Executing go vet"
+go vet ./...
+echo "=> Executing staticcheck"
+staticcheck ./...
+echo "=> Running tests"
+go test ./... -covermode=atomic -coverpkg=./... -count=1 -race -shuffle=on
+make: Leaving directory `/Users/dgarciajaram/go/src/github.com/davidJeronimoG/design-patterns-in-go'
+ 
