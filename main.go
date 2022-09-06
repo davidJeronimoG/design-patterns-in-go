@@ -1,11 +1,7 @@
 package main
 
-import (
-
-	// "github.com/davidJeronimoG/design-patterns-in-go/solid"
-	"github.com/davidJeronimoG/design-patterns-in-go/patrones/builder"
-	"github.com/davidJeronimoG/design-patterns-in-go/patrones/factory"
-)
+// import "github.com/davidJeronimoG/design-patterns-in-go/patrones/interpreter"
+import "github.com/davidJeronimoG/design-patterns-in-go/patrones/mediator"
 
 func main() {
 
@@ -14,6 +10,10 @@ func main() {
 	// solid.Solid_lsp()
 	// solid.Solid_isp()
 	// solid.Solid_dip()
-	builder.Builder()
-	factory.Factory()
+	// builder.Builder()
+	// factory.Factory()
+	// proxy.Proxy()
+	// chainofresponsibility.Chainofresponsibility()
+	// interpreter.Interpreter()
+	mediator.MEdiator()
 }

@@ -5,7 +5,7 @@ import (
     "log"
 )
 
-func main() {
+func Facade() {
     fmt.Println()
     walletFacade := newWalletFacade("abc", 1234)
     fmt.Println()
