@@ -8,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This program built for i386-apple-darwin11.3.0
  
 
-# Make data base, printed on Tue Sep  6 14:30:19 2022
+# Make data base, printed on Wed Sep  7 10:43:49 2022
 
 # Variables
 
@@ -21,7 +21,6 @@ RUBY_VERSION = ruby-3.0.0
 # makefile (from `Makefile', line 1)
 PACKAGES_PATH = $(shell go list -f '{{ .Dir }}' ./...)
 # automatic
- 
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
 rvm_path = /Users/dgarciajaram/.rvm
@@ -43,6 +42,7 @@ MAKEFILE_LIST :=  Makefile
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
+ 
 # environment
 P9K_SSH = 0
 # environment
@@ -55,8 +55,6 @@ PATH = /Users/dgarciajaram/.rvm/gems/ruby-3.0.0/bin:/Users/dgarciajaram/.rvm/gem
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 GOPATH = /Users/dgarciajaram/go
-# environment
-LaunchInstanceID = D70A3886-3750-4478-897F-6C53C91F9D67
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
@@ -80,7 +78,7 @@ HOME = /Users/dgarciajaram
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/dgarciajaram/Library/Application Support/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+VSCODE_CODE_CACHE_PATH = /Users/dgarciajaram/Library/Application Support/Code/CachedData/784b0177c56c607789f9638da7b6bf3230d47a8c
 # environment
 LOGNAME = dgarciajaram
 # environment
@@ -124,7 +122,7 @@ TMPDIR = /var/folders/z1/05_7qkdj3pzbnzj9shzwc3tjw40n8y/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/dgarciajaram/Library/Application Support/Code/1.70.2-main.sock
+VSCODE_IPC_HOOK = /Users/dgarciajaram/Library/Application Support/Code/1.71.0-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -134,7 +132,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.11888092.11888098
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.12421164.12421170
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -151,8 +149,6 @@ MAKEFILES :=
 PAGER = less
 # environment
 LC_ALL = C
-# environment
-SECURITYSESSIONID = 186a6
 # automatic
 ^F = $(notdir $^)
 # environment
@@ -166,12 +162,11 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 841
+VSCODE_PID = 78105
 # environment
 MY_RUBY_HOME = /Users/dgarciajaram/.rvm/rubies/ruby-3.0.0
 # variable set hash-table stats:
-# Load=78/1024=8%, Rehash=0, Collisions=3/104=3%
- 
+# Load=76/1024=7%, Rehash=0, Collisions=3/102=3%
 
 # Pattern-specific Variable Values
 
@@ -336,11 +331,12 @@ require:
 
 # No general (`VPATH' variable) search path.
 
+ 
 # # of strings in strcache: 1
 # # of strcache buffers: 1
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Sep  6 14:30:19 2022
+# Finished Make data base on Wed Sep  7 10:43:49 2022
 
  

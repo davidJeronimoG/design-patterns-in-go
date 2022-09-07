@@ -1,7 +1,7 @@
 package main
 
 // import "github.com/davidJeronimoG/design-patterns-in-go/patrones/interpreter"
-import "github.com/davidJeronimoG/design-patterns-in-go/patrones/mediator"
+import "github.com/davidJeronimoG/design-patterns-in-go/patrones/state"
 
 func main() {
 
@@ -15,5 +15,6 @@ func main() {
 	// proxy.Proxy()
 	// chainofresponsibility.Chainofresponsibility()
 	// interpreter.Interpreter()
-	mediator.MEdiator()
+	// mediator.MEdiator()
+	state.STate()
 }
